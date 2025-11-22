@@ -1,21 +1,20 @@
-//package model;
-//
-//public class ArtStyle {
-//
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//
-//	}
-//
-//}
-
 package model;
 
 public enum ArtStyle {
     ABSTRACT,
-    REALISM,
     IMPRESSIONISM,
+    EXPRESSIONISM,
     CUBISM,
     SURREALISM,
-    EXPRESSIONISM
+    REALISM,
+    MINIMALISM,
+    POP_ART,
+    CONTEMPORARY,
+    RENAISSANCE;
+
+    // Method to get display name with spaces
+    @Override
+    public String toString() {
+        return name().charAt(0) + name().substring(1).toLowerCase().replace("_", " ");
+    }
 }
