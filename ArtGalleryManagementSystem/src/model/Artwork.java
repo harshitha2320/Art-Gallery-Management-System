@@ -214,3 +214,17 @@ public sealed class Artwork implements ArtworkOperations permits Painting, Sculp
         logger.run();
     }
 }
+
+//// Painting
+//Painting painting1 = new Painting("Starry Night", "Vincent van Gogh", 1889, ArtStyle.POST_IMPRESSIONISM, 100_000_000, "Oil", true);
+//Painting painting2 = new Painting("The Persistence of Memory", "Salvador Dalí", 1931, ArtStyle.SURREALISM, 55_000_000, "Oil", false);
+//Painting painting3 = new Painting("Composition VII", "Wassily Kandinsky", 1913, ArtStyle.ABSTRACT, 80_000_000, "Oil", true);
+
+//// Sculptures
+//Sculpture sculpture1 = new Sculpture("David", "Michelangelo", 1504, ArtStyle.RENAISSANCE, 200_000_000, "Marble", 6_000, false);
+//Sculpture sculpture2 = new Sculpture("The Thinker", "Auguste Rodin", 1904, ArtStyle.REALISM, 15_000_000, "Bronze", 600, true);
+//Sculpture sculpture3 = new Sculpture("Balloon Dog", "Jeff Koons", 1994, ArtStyle.CONTEMPORARY, 58_000_000, "Stainless Steel", 1_000, false);
+
+//// Exhibition
+//Exhibition exhibition = Exhibition.createWithArtworks("Masterpieces 2025", painting1, sculpture1, painting2);
+
