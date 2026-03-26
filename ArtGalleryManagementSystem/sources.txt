@@ -1,0 +1,12 @@
+src/module-info.java
+src/main/java/util/ArtGalleryUtils.java
+src/main/java/exceptions/DuplicateArtworkException.java
+src/main/java/exceptions/InvalidArtStyleException.java
+src/main/java/exceptions/ArtworkNotFoundException.java
+src/main/java/model/ArtStyle.java
+src/main/java/model/Painting.java
+src/main/java/model/Artwork.java
+src/main/java/model/Exhibition.java
+src/main/java/model/Sculpture.java
+src/main/java/model/ArtworkOperations.java
+src/main/java/com/artgallery/GalleryApp.java
